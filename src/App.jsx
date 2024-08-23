@@ -1,8 +1,16 @@
+import TopNavigation from "./components/Topnavigation";
+import HomepageBody from "./components/Homepagebody";
+import Footer from "./components/Footer";
+import Copyright from "./components/copyright";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Test</h1>
-    </>
+    <div>
+      <TopNavigation />
+      <HomepageBody />
+      <Footer />
+      <Copyright />
+    </div>
   );
 }
 
